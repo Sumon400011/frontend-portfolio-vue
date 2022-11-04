@@ -1,21 +1,21 @@
 <template>
   <div>
-    <!-- <HeaderComp /> -->
-    <Homepage />
-    <!-- <router-view /> -->
-    <!-- <FooterComp /> -->
+    <MenuComp />
+    <HomePage />
+    <FooterComp />
   </div>
 </template>
 <script>
-import Homepage from "./views/HomePage.vue";
-// import HeaderComp from "./components/HeaderComp";
-// import FooterComp from "./components/FooterComp";
+
+import MenuComp from "../components/Laytouts/MenuComp.vue";
+import HomePage from "./views/HomePage.vue";
+import FooterComp from "../components/Laytouts/FooterComp.vue";
 export default {
   name: "App",
   components: {
-    // HeaderComp,
-    Homepage,
-    // FooterComp,
+    MenuComp,
+    HomePage,
+    FooterComp,
   },
 };
 </script>
