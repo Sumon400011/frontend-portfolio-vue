@@ -36,7 +36,7 @@
               id="offcanvasRightLabel"
             >
               <img
-                src="/assets/img/Sumon-Mondol-Logo-green.svg"
+                src="../../assets/img/Sumon-Mondol-Logo-green.svg"
                 alt="brand logo"
                 class="brand-logo"
               />
