@@ -1,0 +1,36 @@
+@import "_variables";
+
+.input-container{
+    input, .input{
+        padding: $input-padding;
+        @include input-field-properties;
+    }
+    .input-label, label{
+        @include input-label;
+    }
+    .input-helper, small{
+        @include input-helper;
+    }
+}
+.input-container-sm{
+    input, .input{
+        padding: $input-sm-padding;
+        @include input-field-properties;
+    }
+    .input-label, label{
+        @include input-label;
+    }
+    .input-helper, small{
+        @include input-helper;
+    }
+}
+
+
+@media (max-width: $breakpoint-768) {
+    .input-container{
+        input, .input{
+            padding: $input-sm-padding;
+            @include input-field-properties;
+        }
+    }
+}

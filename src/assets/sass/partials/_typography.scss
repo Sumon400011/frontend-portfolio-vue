@@ -1,0 +1,38 @@
+@import "_variables";
+@import "_mixins";
+
+
+
+/* ====== Media Queries for headings ======= */
+
+@media (max-width: $breakpoint-1440) {
+    // @each $key, $heading-size in $heading-sizes {
+    //     h#{$key}, .h#{$key} {
+    //         font-size: calc(($heading-size / $body-text) - 0.125) + rem;
+    //     }
+    // }
+}
+
+// @media (max-width: $breakpoint-1024) {
+//     @each $key, $heading-size in $heading-sizes {
+//         h#{$key}, .h#{$key} {
+//             font-size: calc($heading-size - 2 / $body-text) + rem;
+//         }
+//     }
+// }
+
+// @media (max-width: $breakpoint-768) {
+//     @each $key, $heading-size in $heading-sizes {
+//         h#{$key}, .h#{$key} {
+//             font-size: calc($heading-size - 2 / $body-text) + rem;
+//         }
+//     }
+// }
+
+// @media (max-width: $breakpoint-575) {
+//     @each $key, $heading-size in $heading-sizes {
+//         h#{$key}, .h#{$key} {
+//             font-size: calc($heading-size - 2 / $body-text) + rem;
+//         }
+//     }
+// }

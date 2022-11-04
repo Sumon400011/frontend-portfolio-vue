@@ -1,0 +1,117 @@
+@import "_variables";
+
+
+/* ==== Primary Color Swatches ==== */
+@each $key, $primary-color in $primary-colors {
+    .text-primary-#{$key} {color: $primary-color;}
+    .bg-primary-#{$key} {background-color: $primary-color;}
+}
+
+
+/* ==== Scondary Color Swatches ==== */
+@each $key, $secondary-color in $secondary-colors {
+    .text-secondary-#{$key} {color: $secondary-color;}
+    .bg-secondary-#{$key} {background-color: $secondary-color;}
+}
+
+
+/* ==== Gray Color Swatches ==== */
+@each $key, $gray in $grays {
+    .text-gray-#{$key} {color: $gray;}
+    .bg-gray-#{$key} {background-color: $gray;}
+}
+
+
+/* ==== Black Color Swatches ==== */
+@each $key, $black in $blacks {
+    .text-black-#{$key} {color: $black;}
+    .bg-black-#{$key} {background-color: $black;}
+}
+
+
+
+
+/* ==== Heading Sizes ==== */
+// @each $key, $heading-size in $heading-sizes {
+//     h#{$key}, .h#{$key} {
+//         font-size: calc($heading-size / $body-text) + rem;
+//     }
+// }
+
+
+/* ==== Body Text Sizes ==== */
+.line-height{line-height: 150%;}
+
+@each $key, $body-size in $body-text-sizes {
+
+    @if $key == ''{
+        .text#{$key} {
+            font-size: calc($body-size / $body-text) + rem; 
+            @extend .line-height;
+        }
+    }@else{
+        .text-#{$key} {
+            font-size: calc($body-size / $body-text) + rem; 
+            @extend .line-height;
+        }
+    }
+}
+
+
+/* ==== font Weights ==== */
+@each $key, $font-weight in $weights{
+    .weight-#{$key} {font-weight: $font-weight;}
+}
+
+
+/* ==== Spacing ==== */
+@each $space in $spacers{
+    @media (min-width: 0px) {
+        @include padding-classes('', $space);
+    }
+    @media (min-width: ($breakpoint-575 + 1) ) {
+        @include padding-classes(sm, $space);
+    }
+    @media (min-width: $breakpoint-768) {
+        @include padding-classes(md, $space);
+    }
+    @media (min-width: ($breakpoint-991 + 1) ) {
+        @include padding-classes(lg, $space);
+    }
+    @media (min-width: $breakpoint-1024) {
+        @include padding-classes(xl, $space);
+    }
+    @media (min-width: $breakpoint-1440) {
+        @include padding-classes(xxl, $space);
+    }
+}
+
+
+
+
+/* ==== Border radius ==== */
+@each $corner in $Radius{
+    .border-radius-#{$corner} {
+        @include border-radius($corner, $corner, $corner, $corner);
+    }
+    .border-top-#{$corner} {
+        @include border-radius($corner, $corner, 0, 0);
+    }
+    .border-bottom-#{$corner} {
+        @include border-radius(0, 0, $corner, $corner);
+    }
+    .border-left-#{$corner} {
+        @include border-radius($corner, 0, 0, $corner);
+    }
+    .border-right-#{$corner} {
+        @include border-radius(0, $corner, $corner, 0);
+    }
+}
+
+
+/* ==== Shadows ==== */
+@each $keys, $shadow in $shadows{
+    .shadow-#{$keys} {
+        @include box-shadow($shadow);
+    }
+}

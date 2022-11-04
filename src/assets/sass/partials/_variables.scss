@@ -1,0 +1,194 @@
+// ===============================
+// ========= Customs ==============
+// ===============================
+
+
+
+// ===============================
+// ========= Colors ==============
+// ===============================
+
+// Brand Colors
+$primary-color: #84CC16;
+$secondary-color: #F2994A;
+
+// Primary Color Swatches
+$primary-100: #F3FAE8;
+$primary-300: #E0F2C5;
+$primary-500: #C1E58A;
+$primary-700: #A3D950;
+$primary-colors: (100: $primary-100, 300: $primary-300, 500: $primary-500, 700: $primary-700);
+
+// secondary Color Swatches
+$secondary-100: #FEF5ED;
+$secondary-300: #FCE5D2;
+$secondary-500: #F8CCA4;
+$secondary-700: #F5B277;
+$secondary-colors: (100: $secondary-100, 300: $secondary-300, 500: $secondary-500, 700: $secondary-700);
+
+// State Colors
+$info-color: #3B82F6;
+$success-color: #22C55E;
+$warning-color: #FBBF24;
+$danger-color: #F43F5E;
+
+
+// gray Colors
+$gray-1: #52525B;
+$gray-2: #71717A;
+$gray-3: #A1A1AA;
+$gray-4: #D4D4D8;
+$gray-5: #E4E4E7;
+$grays: (1: $gray-1, 2: $gray-2, 3: $gray-3, 4: $gray-4, 5: $gray-5);
+
+
+// Black Colors
+$black-1: #18181B;
+$black-2: #27272A;
+$black-3: #282828;
+$blacks: (1: $black-1, 2: $black-2, 3: $black-3);
+
+// White Color
+$white-color: #ffffff;
+
+
+
+// ===============================
+// ========= Typography ==========
+// ===============================
+$font-family: 'Inter', sans-serif;
+
+$display-1: 75;
+
+// Heading Text
+$heading-1: 64;
+$heading-2: 48;
+$heading-3: 40;
+$heading-4: 32;
+$heading-5: 24;
+$heading-6: 20;
+$heading-sizes: (1: $heading-1, 2: $heading-2, 3: $heading-3, 4: $heading-4, 5: $heading-5, 6: $heading-6);
+// $heading-sizes: (1: 4rem, 2: 3rem, 3: 2.5rem, 4: 2rem, 5: 1.5rem, 6: 1.25rem);
+
+
+// Body Text
+$body-text-lg: 20;
+$body-text-md: 18;
+$body-text: 16;
+$body-text-sm: 14;
+$body-text-xs: 12;
+$body-text-sizes: (lg: $body-text-lg, md: $body-text-md, '': $body-text, sm: $body-text-sm, xs: $body-text-xs);
+
+
+// font weights
+$weight-regular : 400;
+$weight-medium : 500;
+$weight-semi-bold : 600;
+$weight-bold : 700;
+$weights: (regular:$weight-regular, medium: $weight-medium, semi-bold: $weight-semi-bold, bold: $weight-bold);
+
+
+
+// ===============================
+// =========== Spacers ===========
+// ===============================
+$space-45: 45;
+$space-32: 32;
+$space-15: 15;
+$spacers: (0, 8, 12, 15, 20, 24, 30, 32, 40, 45, 56, 72, 80, 120);
+
+$gutter-15: 15;
+$gutter-20: 20;
+$gutter-30: 30;
+$gutter-40: 40;
+$gutter-45: 45;
+$gutters: (15, 20, 30, 40, 45);
+
+
+
+// ===============================
+// =========== Radius ============
+// ===============================
+$radius-8: 8;
+$radius-12: 12;
+$radius-15: 15;
+$radius-20: 20;
+$radius-25: 25;
+$radius-40: 40;
+$Radius: (8, 12, 15, 20, 25, 40);
+
+
+
+
+// ===============================
+// =========== Shadows ===========
+// ===============================
+$shadow-0 : none;
+$shadow-sm : 4px 4px 10px rgba(0, 0, 0, 0.1);
+$shadow-md : 6px 6px 20px rgba(0, 0, 0, 0.1); 
+$shadow-xl : 10px 10px 25px rgba(0, 0, 0, 0.1);
+$shadow-xxl : 15px 15px 40px rgba(0, 0, 0, 0.1);
+
+$shadow-covered-sm : 0px 0px 10px rgba(0, 0, 0, 0.1);
+$shadow-covered-md : 0px 0px 20px rgba(0, 0, 0, 0.1);
+$shadow-covered-xl : 0px 0px 25px rgba(0, 0, 0, 0.1);
+$shadow-covered-xxl : 0px 0px 40px rgba(0, 0, 0, 0.1);
+$shadows: (0: $shadow-0, sm: $shadow-sm, md: $shadow-md, xl: $shadow-xl, xxl: $shadow-xxl, covered-sm: $shadow-covered-sm, covered-md: $shadow-covered-md, covered-xl: $shadow-covered-xl, covered-xxl: $shadow-covered-xxl);
+
+
+
+// ===========================================
+// ======= Media Queries | grid.scss =========
+// ===========================================
+
+// Breakpoints
+$breakpoint-1920: 1920px;
+$breakpoint-1440: 1440px;
+$breakpoint-1024: 1024px;
+$breakpoint-991: 991px;
+$breakpoint-768: 768px;
+$breakpoint-575: 575px;
+
+
+// Container and grids
+$container-desktop-lg: 1620;
+$container-desktop: 1440;
+$container-tablet-horizontal: 960;
+$container-tablet-vertical: 768;
+$container-mobile: 575;
+$containers: (xxl: $container-desktop-lg, xl: $container-desktop, lg: $container-tablet-horizontal, md: $container-tablet-vertical, sm: $container-mobile);
+
+$columns: 12;
+
+
+// ===============================
+// =========== Buttons ===========
+// ===============================
+
+// Button spacing
+$btn-p8: 8;
+$btn-p12: 12;
+$btn-p30: 30;
+$btn-p40: 40;
+
+
+
+// ===============================
+// =========== Positions =========
+// ===============================
+$postion-absolute: absolute;
+$postion-relative: relative;
+$postion-static: static;
+$postion-sticky: sticky;
+$top-0: 0;
+$left-0: 0;
+$right-0: 0;
+$top-0: 0;
+
+
+// ===============================
+// ============ Inputs ===========
+// ===============================
+
+$input-padding: 16px 16px 16px 16px;
+$input-sm-padding: 8px 12px 8px 12px;

@@ -1,0 +1,181 @@
+@import "_variables";
+@import "_mixins";
+
+/* ====== Buttons ====== */
+a.btn, 
+a.btn-lg, 
+a.btn-right-icon, 
+a.btn-left-icon, 
+a.btn-right-icon-lg, 
+a.btn-left-icon-lg,
+a.button, 
+a.button-lg, 
+a.button-right-icon, 
+a.button-left-icon, 
+a.button-right-icon-lg, 
+a.button-left-icon-lg{
+    display: inline-block;
+
+}
+
+// default btn
+a.btn, 
+a.btn-lg, 
+a.btn-right-icon, 
+a.btn-left-icon, 
+a.btn-right-icon-lg, 
+a.btn-left-icon-lg,
+a.button, 
+a.button-lg, 
+a.button-right-icon, 
+a.button-left-icon, 
+a.button-right-icon-lg, 
+a.button-left-icon-lg,
+.btn, 
+.btn-lg, 
+.btn-right-icon, 
+.btn-left-icon, 
+.btn-right-icon-lg, 
+.btn-left-icon-lg,
+.button, 
+.button-lg, 
+.button-right-icon, 
+.button-left-icon, 
+.button-right-icon-lg, 
+.button-left-icon-lg{
+    @include btn-properties;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.button,
+.btn{
+    @include btn;
+}
+.button-lg,
+.btn-lg{
+    @include btn-lg;
+}
+.button-right-icon,
+.btn-right-icon{
+    @include btn-right-icon;
+}
+.button-left-icon,
+.btn-left-icon{
+    @include btn-left-icon;
+}
+
+.button-right-icon-lg,
+.btn-right-icon-lg{
+    @include btn-right-icon-lg;
+}
+.button-left-icon-lg,
+.btn-left-icon-lg{
+    @include btn-left-icon-lg;
+}
+
+// primary btn
+a.button-primary,
+a.btn-primary,
+.button-primary,
+.btn-primary{
+    @include btn-primary;
+    @include border-radius(8, 8, 8, 8);
+    transition: 0.25s all;
+
+    &:hover{
+        background-color: $primary-700;
+        transition: 0.25s all;
+    }
+    &:active{
+        @include border(2, solid, $primary-300);
+    }
+    &:visited{
+        @include border(2, solid, $primary-color);
+    }
+    &:disabled{
+        background-color: $primary-300;
+        cursor: default;
+        pointer-events: none;
+    }
+    &.disabled{
+        background-color: $primary-300;
+        cursor: default;
+        pointer-events: none;
+    }
+}
+
+// primary Outline btn
+a.button-outline-primary,
+a.btn-outline-primary,
+.button-outline-primary,
+.btn-outline-primary{
+    @include btn-outline-primary;
+    @include border-radius(8, 8, 8, 8);
+    transition: 0.25s all;
+    
+    &:hover{
+        color: $white-color;
+        background-color: $primary-color;
+        transition: 0.25s all;
+    }
+    &.active{
+        color: $white-color;
+        background-color: $primary-color;
+        transition: 0.25s all;
+    }
+}
+
+
+// Secondary btn
+a.button-secondary,
+a.btn-secondary,
+.button-secondary,
+.btn-secondary{
+    @include btn-secondary;
+    @include border-radius(8, 8, 8, 8);
+    transition: 0.25s all;
+
+    &:hover{
+        background-color: $secondary-700;
+        transition: 0.25s all;
+    }
+    &:active{
+        @include border(2, solid, $secondary-300);
+    }
+    &:visited{
+        @include border(2, solid, $secondary-color);
+    }
+    &:disabled{
+        background-color: $secondary-300;
+        cursor: default;
+        pointer-events: none;
+    }
+    &.disabled{
+        background-color: $secondary-300;
+        cursor: default;
+        pointer-events: none;
+    }
+}
+
+// Secondary Outline btn
+a.button-outline-secondary,
+a.btn-outline-secondary,
+.button-outline-secondary,
+.btn-outline-secondary{
+    @include btn-outline-secondary;
+    @include border-radius(8, 8, 8, 8);
+    transition: 0.25s all;
+
+    &:hover{
+        color: $white-color;
+        background-color: $secondary-color;
+        transition: 0.25s all;
+    }
+    &.active{
+        color: $white-color;
+        background-color: $secondary-color;
+        transition: 0.25s all;
+    }
+}

@@ -1,0 +1,182 @@
+@import "_variables";
+
+// ===== border ===============
+@mixin border($val, $border-type, $color){
+    border: $val+px $border-type $color;
+}
+
+@mixin border-radius($val1, $val2, $val3, $val4){
+    border-radius: $val1+px $val2+px $val3+px $val4+px;
+}
+
+// ===== shadows ===============
+@mixin shadow($X, $Y, $B, $color){
+    box-shadow: $X+px $Y+px $B+px $color;
+}
+
+@mixin box-shadow($shadows){
+    box-shadow: $shadows;
+}
+
+
+// ===== spacing ===============
+@mixin make-padding($pval1, $pval2, $pval3, $pval4){
+    padding: calc($pval1/16)+rem calc($pval2/16)+rem calc($pval3/16)+rem calc($pval4/16)+rem;
+}
+
+@mixin padding-classes($size-name, $space){
+    @if $size-name == ''{
+        .p-#{$space} {padding: calc($space / $body-text) + rem;}
+        .pt-#{$space} {padding-top: calc($space / $body-text) + rem;}
+        .pb-#{$space} {padding-bottom: calc($space / $body-text) + rem;}
+        .pl-#{$space} {padding-left: calc($space / $body-text) + rem;}
+        .pr-#{$space} {padding-right: calc($space / $body-text) + rem;}
+        .px-#{$space} {padding-left: calc($space / $body-text) + rem; padding-right: calc($space / $body-text) + rem;}
+        .py-#{$space} {padding-top: calc($space / $body-text) + rem; padding-bottom: calc($space / $body-text) + rem;}
+
+        // margin
+        .m-#{$space} {margin: calc($space / $body-text) + rem;}
+        .mt-#{$space} {margin-top: calc($space / $body-text) + rem;}
+        .mb-#{$space} {margin-bottom: calc($space / $body-text) + rem;}
+        .ml-#{$space} {margin-left: calc($space / $body-text) + rem;}
+        .mr-#{$space} {margin-right: calc($space / $body-text) + rem;}
+        .mx-#{$space} {margin-left: calc($space / $body-text) + rem; margin-right: calc($space / $body-text) + rem;}
+        .my-#{$space} {margin-top: calc($space / $body-text) + rem; margin-bottom: calc($space / $body-text) + rem;}
+    }@else{
+        // padding
+        .p-#{$size-name}-#{$space} {padding: calc($space / $body-text) + rem;}
+        .pt-#{$size-name}-#{$space} {padding-top: calc($space / $body-text) + rem;}
+        .pb-#{$size-name}-#{$space} {padding-bottom: calc($space / $body-text) + rem;}
+        .pl-#{$size-name}-#{$space} {padding-left: calc($space / $body-text) + rem;}
+        .pr-#{$size-name}-#{$space} {padding-right: calc($space / $body-text) + rem;}
+        .px-#{$size-name}-#{$space} {padding-left: calc($space / $body-text) + rem; padding-right: calc($space / $body-text) + rem;}
+        .py-#{$size-name}-#{$space} {padding-top: calc($space / $body-text) + rem; padding-bottom: calc($space / $body-text) + rem;}
+
+        // margin
+        .m-#{$size-name}-#{$space} {margin: calc($space / $body-text) + rem;}
+        .mt-#{$size-name}-#{$space} {margin-top: calc($space / $body-text) + rem;}
+        .mb-#{$size-name}-#{$space} {margin-bottom: calc($space / $body-text) + rem;}
+        .ml-#{$size-name}-#{$space} {margin-left: calc($space / $body-text) + rem;}
+        .mr-#{$size-name}-#{$space} {margin-right: calc($space / $body-text) + rem;}
+        .mx-#{$size-name}-#{$space} {margin-left: calc($space / $body-text) + rem; margin-right: calc($space / $body-text) + rem;}
+        .my-#{$size-name}-#{$space} {margin-top: calc($space / $body-text) + rem; margin-bottom: calc($space / $body-text) + rem;}
+    }
+    
+}
+
+
+
+// ===== Butons ===============
+@mixin btn-properties{
+    font-size: calc($body-text / 16) + rem;
+    line-height: 100%;
+    text-align: center;
+    font-weight: $weight-semi-bold;
+    vertical-align: middle;
+}
+
+@mixin btn{
+    @include make-padding($btn-p12, $btn-p12*2, $btn-p12, $btn-p12*2);
+}
+
+@mixin btn-lg{
+    @include make-padding($btn-p12, $btn-p40, $btn-p12, $btn-p40);
+}
+
+// right icon btn
+@mixin btn-right-icon{
+    @include make-padding($btn-p12, $btn-p12+6, $btn-p12, $btn-p12*2);
+}
+
+@mixin btn-right-icon-lg{
+    @include make-padding($btn-p12, $btn-p30 - 8, $btn-p12, $btn-p30);
+}
+// left icon btn
+@mixin btn-left-icon{
+    @include make-padding($btn-p12, $btn-p12+6, $btn-p12, $btn-p12*2);
+}
+
+@mixin btn-left-icon-lg{
+    @include make-padding($btn-p12, $btn-p30, $btn-p12, $btn-p30 - 8);
+}
+
+
+
+// Primary btns mixins
+@mixin btn-primary{
+    background-color: $primary-color;
+    color: $white-color;
+    @include border(2, solid, transparent);
+}
+
+@mixin btn-outline-primary{
+    background-color: $white-color;
+    color: $primary-color;
+    @include border(2, solid, $primary-color);
+}
+
+// Secondary btns mixins
+@mixin btn-secondary{
+    background-color: $secondary-color;
+    color: $white-color;
+    @include border(2, solid, transparent);
+}
+
+@mixin btn-outline-secondary{
+    background-color: $white-color;
+    color: $secondary-color;
+    @include border(2, solid, $secondary-color);
+}
+
+
+// ===== Inputs ===============
+@mixin input-field-properties{
+    font-size: 1rem;
+    width: 100%;
+    line-height: 150%;
+    border-radius: 4px !important;
+    border: 2px solid $gray-3;
+    color: $black-3;
+    &::placeholder{
+        color: $gray-3;
+        line-height: 150%;
+        font-size: 1rem;
+    }
+    &:focus-visible{
+        outline-color: $primary-color; 
+        border: 2px solid $primary-color; 
+    }
+    &:focus{
+        border: 2px solid $primary-color; 
+    }
+    &.success{
+        border: 2px solid $success-color;
+    }
+    &.warning{
+        border: 2px solid $warning-color;
+    }
+    &.danger{
+        border: 2px solid $danger-color;
+    }
+}
+
+@mixin input-label{
+    color: $gray-1;
+    line-height: 100%;
+    margin-bottom: 12px;
+    font-weight: $weight-bold;
+}
+@mixin input-helper{
+    font-size: calc($body-text-sm / $body-text) + rem;
+    line-height: 150%;
+    color: $black-3;
+    &.success{
+        color: $success-color;
+    }
+    &.warning{
+        color: $warning-color;
+    }
+    &.danger{
+        color: $danger-color;
+    }
+}
