@@ -10,8 +10,8 @@
 
 import MenuComp from "./components/Laytouts/MenuComp.vue";
 import HomePage from "./views/HomePage.vue";
-import FooterComp from "./components/Laytouts/FooterComp.vue";
-import CopyrightComp from "./components/Laytouts/CopyrightComp.vue";
+import FooterComp from "./components/Layouts/FooterComp.vue";
+import CopyrightComp from "./components/Layouts/CopyrightComp.vue";
 export default {
   name: "App",
   components: {

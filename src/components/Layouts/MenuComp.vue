@@ -5,7 +5,7 @@
       <div class="container">
         <a class="navbar-brand weight-semi-bold" href="#">
           <img
-            src="/assets/img/Sumon-Mondol-Logo-green.svg"
+            src="../../assets/img/Sumon-Mondol-Logo-green.svg"
             alt="brand logo"
             class="mx-auto brand-logo"
           />
