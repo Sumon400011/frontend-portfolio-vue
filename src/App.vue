@@ -7,9 +7,9 @@
 </template>
 <script>
 
-import MenuComp from "../components/Laytouts/MenuComp.vue";
+import MenuComp from "./components/Laytouts/MenuComp.vue";
 import HomePage from "./views/HomePage.vue";
-import FooterComp from "../components/Laytouts/FooterComp.vue";
+import FooterComp from "./components/Laytouts/FooterComp.vue";
 export default {
   name: "App",
   components: {
