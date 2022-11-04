@@ -1,5 +1,10 @@
 <template>
-  <main>
+  <main
+    data-bs-spy="scroll"
+    data-bs-target="#menu"
+    data-bs-offset="0"
+    tabindex="0"
+  >
     <BannerComp />
     <AboutmeComp />
     <EducationComp />
