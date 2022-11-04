@@ -1,6 +1,11 @@
 <template>
   <!-- ===== Menu ===== -->
-  <div class="fixed-top section" id="menu">
+  <div
+    class="fixed-top section"
+    id="menu"
+    :class="{ active: isActive }"
+    @onScroll="updateScroll"
+  >
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand weight-semi-bold" href="#">
@@ -152,5 +157,37 @@
 <script>
 export default {
   name: "MenuComp",
+  data: function () {
+    return {
+      scrollPosition: 50,
+      isActive: false,
+    };
+  },
+  methods: {
+    updateScroll() {
+      if (window.scrollY >= this.scrollPosition) {
+        this.isActive = true;
+        console.log("working");
+      } else {
+        this.isActive = false;
+        console.log("not working");
+      }
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  },
 };
 </script>
+<style>
+#menu {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: none;
+  transition: 0.3s;
+}
+#menu.active {
+  background-color: rgba(254, 245, 237, 1);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+</style>
