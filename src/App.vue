@@ -21,8 +21,9 @@ export default {
 </script>
 
 <style>
-@import "./assets/css/theme.min.css";
+@import "./assets/css/bootstrap0.min.css";
 @import "./assets/css/style.min.css";
+@import "./assets/css/theme.min.css";
 nav a.router-link-exact-active {
   color: #42b983;
 }
