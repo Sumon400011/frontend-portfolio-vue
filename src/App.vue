@@ -7,8 +7,7 @@
   </div>
 </template>
 <script>
-
-import MenuComp from "./components/Laytouts/MenuComp.vue";
+import MenuComp from "./components/Layouts/MenuComp.vue";
 import HomePage from "./views/HomePage.vue";
 import FooterComp from "./components/Layouts/FooterComp.vue";
 import CopyrightComp from "./components/Layouts/CopyrightComp.vue";
