@@ -5,6 +5,7 @@
     <EducationComp />
     <SkillsComp />
     <PortfoliosComp />
+    <TestimonialsComp />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import AboutmeComp from "../components/HomeView/AboutmeComp.vue";
 import EducationComp from "../components/HomeView/EducationComp.vue";
 import SkillsComp from "../components/HomeView/SkillsComp.vue";
 import PortfoliosComp from "../components/HomeView/PortfoliosComp.vue";
+import TestimonialsComp from "../components/HomeView/TestimonialsComp.vue";
 export default {
   name: "HomePage",
   components: {
@@ -22,6 +24,7 @@ export default {
     EducationComp,
     SkillsComp,
     PortfoliosComp,
+    TestimonialsComp,
   },
 };
 </script>
