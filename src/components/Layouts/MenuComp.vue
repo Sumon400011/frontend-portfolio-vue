@@ -3,7 +3,7 @@
   <div
     class="fixed-top section"
     id="menu"
-    :class="{ active: isActive }"
+    :class="{ bgactive: isActive }"
     @onScroll="updateScroll"
   >
     <nav class="navbar navbar-expand-lg">
@@ -185,7 +185,7 @@ export default {
   box-shadow: none;
   transition: 0.3s;
 }
-#menu.active {
+#menu.bgactive {
   background-color: rgba(254, 245, 237, 1);
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
