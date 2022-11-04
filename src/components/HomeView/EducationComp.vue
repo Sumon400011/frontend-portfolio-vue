@@ -32,7 +32,7 @@
                     
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <p class="school-year mb-8 text-gray-2 weight-semi-bold">2015 - 2019</p>
                           <h3 class="school-name text-md text-gray-1 weight-bold">The International University of Scholars</h3>
@@ -46,7 +46,7 @@
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <p class="school-year mb-8 text-gray-2 weight-semi-bold">2012 - 2014</p>
                           <h3 class="school-name text-md text-gray-1 weight-bold">Shaheed Ramiz Uddin Cantonment College</h3>
@@ -60,7 +60,7 @@
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <p class="school-year mb-8 text-gray-2 weight-semi-bold">2002 - 2012</p>
                           <h3 class="school-name text-md text-gray-1 weight-bold">Khilbarirtek Islamia High School</h3>
@@ -81,7 +81,7 @@
                     
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <div class="header d-flex align-items-start justify-content-between">
                             <div class="left flex-grow-1">
@@ -104,7 +104,7 @@
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <div class="header d-flex align-items-start justify-content-between">
                             <div class="left flex-grow-1">
@@ -127,7 +127,7 @@
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0">
                       <div class="card">
-                        <img src="assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
+                        <img src="../../assets/img/circle-secondary-lg.svg" alt="circle-secondary-lg" class="bg-circle img-fluid" />
                         <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
                           <div class="header d-flex align-items-start justify-content-between">
                             <div class="left flex-grow-1">
