@@ -227,11 +227,11 @@
   </section>
 </template>
 <script>
-import EducationCard from '../Misc/EducationCard.vue';
+import EducationCard from "../Misc/EducationCard.vue";
 export default {
   name: "EducationComp",
   components: {
-    EducationCard
-  }
+    EducationCard,
+  },
 };
 </script>
