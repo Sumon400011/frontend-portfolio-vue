@@ -53,92 +53,7 @@
               role="tabpanel"
               aria-labelledby="educations-tab"
             >
-              <div class="row">
-                <div
-                  class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0"
-                >
-                  <div class="card">
-                    <img
-                      src="../../assets/img/circle-secondary-lg.svg"
-                      alt="circle-secondary-lg"
-                      class="bg-circle img-fluid"
-                    />
-                    <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
-                      <p class="school-year mb-8 text-gray-2 weight-semi-bold">
-                        2015 - 2019
-                      </p>
-                      <h3 class="school-name text-md text-gray-1 weight-bold">
-                        The International University of Scholars
-                      </h3>
-                      <p class="school-sub text-gray-1 text-sm">
-                        Computer Science and Engineering
-                      </p>
-                      <div class="school-description mt-16">
-                        <p class="text-gray-2 text-sm mb-0">
-                          The International University of Scholars, popularly
-                          known as University of Scholars, has started its
-                          journey in 2015 with five departments at the outset.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0"
-                >
-                  <div class="card">
-                    <img
-                      src="../../assets/img/circle-secondary-lg.svg"
-                      alt="circle-secondary-lg"
-                      class="bg-circle img-fluid"
-                    />
-                    <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
-                      <p class="school-year mb-8 text-gray-2 weight-semi-bold">
-                        2012 - 2014
-                      </p>
-                      <h3 class="school-name text-md text-gray-1 weight-bold">
-                        Shaheed Ramiz Uddin Cantonment College
-                      </h3>
-                      <p class="school-sub text-gray-1 text-sm">Science</p>
-                      <div class="school-description mt-16">
-                        <p class="text-gray-2 text-sm mb-0">
-                          Shaheed Bir Bikrom Ramiz Uddin Cantonment College is a
-                          school and college in Dhaka, Bangladesh. It is managed
-                          by the Bangladesh Army.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-12 col-sm-12 col-md-6 col-lg-4 mb-32 mb-lg-0 mb-xl-0"
-                >
-                  <div class="card">
-                    <img
-                      src="../../assets/img/circle-secondary-lg.svg"
-                      alt="circle-secondary-lg"
-                      class="bg-circle img-fluid"
-                    />
-                    <div class="card-body p-24 p-sm-24 p-md-24 p-lg-40">
-                      <p class="school-year mb-8 text-gray-2 weight-semi-bold">
-                        2002 - 2012
-                      </p>
-                      <h3 class="school-name text-md text-gray-1 weight-bold">
-                        Khilbarirtek Islamia High School
-                      </h3>
-                      <p class="school-sub text-gray-1 text-sm">Science</p>
-                      <div class="school-description mt-16">
-                        <p class="text-gray-2 text-sm mb-0">
-                          Khilbarirtek Islamia High School is one of the popular
-                          High School located in Badda, Dhaka.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <EducationCard />
             </div>
 
             <!-- Experience -->
@@ -312,7 +227,11 @@
   </section>
 </template>
 <script>
+import EducationCard from '../Misc/EducationCard.vue';
 export default {
   name: "EducationComp",
+  components: {
+    EducationCard
+  }
 };
 </script>
