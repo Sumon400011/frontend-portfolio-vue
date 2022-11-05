@@ -9,6 +9,4 @@ window.$ = window.jQuery = jQuery;
 
 const app = createApp(App);
 
-app.use(router);
-
 app.use(store).use(router).mount("#app");

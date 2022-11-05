@@ -167,10 +167,8 @@ export default {
     updateScroll() {
       if (window.scrollY >= this.scrollPosition) {
         this.isActive = true;
-        console.log("working");
       } else {
         this.isActive = false;
-        console.log("not working");
       }
     },
   },
