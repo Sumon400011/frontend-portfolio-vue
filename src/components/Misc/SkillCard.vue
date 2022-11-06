@@ -32,7 +32,7 @@ export default {
       skills: [
         {
           id: 1,
-          name: "frontend",
+          name: "Front-End Development",
           icon: "<i class='fa-brands fa-react fa-6x my-4' aria-hidden='true'></i>",
           sets: [
             { name: "HTML, CSS, JavaScript & JQuery" },
@@ -47,7 +47,7 @@ export default {
         },
         {
           id: 2,
-          name: "graphics",
+          name: "Graphics & UI Design",
           icon: "<i class='fa-solid fa-brush fa-6x my-4' aria-hidden='true'></i>",
           sets: [
             { name: "Photoshop" },
@@ -62,7 +62,7 @@ export default {
         },
         {
           id: 3,
-          name: "others",
+          name: "Others",
           icon: "<i class='fa-solid fa-shapes fa-6x my-4' aria-hidden='true'></i>",
           sets: [
             { name: "Git / Github" },
