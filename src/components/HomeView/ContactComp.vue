@@ -12,57 +12,7 @@
           <h3 class="h3 text-gray-1 mb-0">Get In Touch</h3>
           <p class="text-gray-2 mb-32">Lets Talks About Your Project</p>
 
-          <!-- Address -->
-          <div
-            class="d-flex align-items-center py-24 px-32 media address mb-24"
-          >
-            <div
-              class="flex-shrink-0 d-flex align-items-center justify-content-center"
-              style="width: 50px"
-            >
-              <span class="text-primary icon-span">
-                <i class="fa-regular fa-compass"></i>
-              </span>
-            </div>
-            <div class="flex-grow-1 ml-24">
-              <strong class="weight-semi-bold mb-0">Address</strong>
-              <p class="text-sm text-gray-2 mb-0">Dhaka, Bangladesh</p>
-            </div>
-          </div>
-
-          <!-- Email -->
-          <div class="d-flex align-items-center py-24 px-32 media email mb-24">
-            <div
-              class="flex-shrink-0 d-flex align-items-center justify-content-center"
-              style="width: 50px"
-            >
-              <span class="text-primary icon-span">
-                <i class="fa-regular fa-envelope"></i>
-              </span>
-            </div>
-            <div class="flex-grow-1 ml-24">
-              <strong class="weight-semi-bold mb-0">Email</strong>
-              <p class="text-sm text-gray-2 mb-0">sumonsm89@gmail.com</p>
-            </div>
-          </div>
-
-          <!-- Whatsapp -->
-          <div
-            class="d-flex align-items-center py-24 px-32 media whatsapp mb-24"
-          >
-            <div
-              class="flex-shrink-0 d-flex align-items-center justify-content-center"
-              style="width: 50px"
-            >
-              <span class="text-primary icon-span">
-                <i class="fa-brands fa-whatsapp"></i>
-              </span>
-            </div>
-            <div class="flex-grow-1 ml-24">
-              <strong class="weight-semi-bold mb-0">Whatsapp</strong>
-              <p class="text-sm text-gray-2 mb-0">+8801234567890</p>
-            </div>
-          </div>
+          <ContactAddress />
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">
@@ -133,7 +83,11 @@
   </section>
 </template>
 <script>
+import ContactAddress from "../Misc/ContactAddress.vue";
 export default {
   name: "ContactComp",
+  components: {
+    ContactAddress,
+  },
 };
 </script>
