@@ -19,7 +19,7 @@
     </div>
   </section>
 </template>
-<script>
+<script lang="ts">
 import TestimonialCarousel from "../Misc/TestimonialCarousel.vue";
 export default {
   name: "TestimonialsComp",

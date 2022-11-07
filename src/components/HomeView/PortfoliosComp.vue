@@ -11,7 +11,7 @@
     </div>
   </section>
 </template>
-<script>
+<script lang="ts">
 import portfolioCard from "../Misc/portfolioCard.vue";
 export default {
   name: "PortfoliosComp",

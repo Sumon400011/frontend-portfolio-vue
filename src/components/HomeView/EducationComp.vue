@@ -71,7 +71,7 @@
     </div>
   </section>
 </template>
-<script>
+<script lang="ts">
 import EducationCard from "../Misc/EducationCard.vue";
 import ExperienceCard from "../Misc/ExperienceCard.vue";
 export default {
