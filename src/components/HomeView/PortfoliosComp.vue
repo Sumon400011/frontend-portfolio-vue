@@ -7,16 +7,16 @@
           <h2 class="h1 text-styled section-title">Portfolios</h2>
         </div>
       </div>
-      <portfolioCard />
+      <PortfolioCard />
     </div>
   </section>
 </template>
 <script>
-import portfolioCard from "../Misc/portfolioCard.vue";
+import PortfolioCard from "../Misc/PortfolioCard.vue";
 export default {
   name: "PortfoliosComp",
   components: {
-    portfolioCard,
+    PortfolioCard,
   },
 };
 </script>
