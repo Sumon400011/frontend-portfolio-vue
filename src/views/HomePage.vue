@@ -34,5 +34,13 @@ export default {
     TestimonialsComp,
     ContactComp,
   },
+  methods: {
+    track() {
+      this.$gtag.pageview(this.$route);
+    },
+  },
+  mounted() {
+    this.track();
+  },
 };
 </script>

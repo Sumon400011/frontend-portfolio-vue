@@ -7,9 +7,12 @@ import VueGtag from "vue-gtag";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "popper.js";
 window.$ = window.jQuery = jQuery;
-
 const app = createApp(App);
-app.use(VueGtag, {
-  config: { id: "G-FML00HTN5B" },
-});
+app.use(
+  VueGtag,
+  {
+    config: { id: "G-FML00HTN5B" },
+  },
+  router
+);
 app.use(store).use(router).mount("#app");
