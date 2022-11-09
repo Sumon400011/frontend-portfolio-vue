@@ -37,7 +37,7 @@ export default {
           id: 1,
           name: "Anna Smith",
           position: "Chief Technology Officer, Facebook",
-          img: "/src/assets/img/avatar1.jpg",
+          img: "/img/avatar1.jpg",
           alt: "avatar1",
           outline:
             "Lorem ipsum dolor sit, amet, consec tetur adipisicing elit. Aperiam maxime quisquam fuga labori osam dolor ibus veniam ducimus volupt atibus volup tatem volup tatum molestiae minima ipsa in qui dolorum, reprehe nderit, quia ab facere, praes entium.",
@@ -46,7 +46,7 @@ export default {
           id: 2,
           name: "Anna Smith",
           position: "Chief Technology Officer, Facebook",
-          img: "/src/assets/img/avatar2.jpg",
+          img: "/img/avatar2.jpg",
           alt: "avatar1",
           outline:
             "Lorem ipsum dolor sit, amet, consec tetur adipisicing elit. Aperiam maxime quisquam fuga labori osam dolor ibus veniam ducimus volupt atibus volup tatem volup tatum molestiae minima ipsa in qui dolorum, reprehe nderit, quia ab facere, praes entium.",
@@ -55,7 +55,7 @@ export default {
           id: 3,
           name: "Anna Smith",
           position: "Chief Technology Officer, Facebook",
-          img: "/src/assets/img/avatar3.jpg",
+          img: "/img/avatar3.jpg",
           alt: "avatar1",
           outline:
             "Lorem ipsum dolor sit, amet, consec tetur adipisicing elit. Aperiam maxime quisquam fuga labori osam dolor ibus veniam ducimus volupt atibus volup tatem volup tatum molestiae minima ipsa in qui dolorum, reprehe nderit, quia ab facere, praes entium.",

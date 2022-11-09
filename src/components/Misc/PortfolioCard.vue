@@ -52,7 +52,7 @@ export default {
           id: 1,
           name: "Thrivelab",
           link: "https://www.thrivelab.com/",
-          img: "../../src/assets/img/ThriveLab.png",
+          img: "/img/ThriveLab.png",
           alt: "ThriveLab",
           outline:
             "Thrivelab provides evidence-based hormone & testosterone balancing programs and natural bioidentical products to alleviate age-related symptoms.",
@@ -61,7 +61,7 @@ export default {
           id: 2,
           name: "OTORide",
           link: "https://www.otoride.co/",
-          img: "../../src/assets/img/otoride.png",
+          img: "/img/otoride.png",
           alt: "Otoride",
           outline:
             "Meet OTORide, the most advanced Bike, eBike, Scooter Sharing platform.",
@@ -70,7 +70,7 @@ export default {
           id: 3,
           name: "Seek°XR",
           link: "https://seekxr.com/",
-          img: "../../src/assets/img/seekxr.png",
+          img: "/img/seekxr.png",
           alt: "Seekxr",
           outline:
             "Seek is the world's first #AugmentedReality community allowing creators to publish and users to discover the latest #AR #MR content.",
@@ -79,7 +79,7 @@ export default {
           id: 4,
           name: "EnergySage",
           link: "https://news.energysage.stg.bglobal.com/",
-          img: "../../src/assets/img/energysage.png",
+          img: "/img/energysage.png",
           alt: "Energysage",
           outline:
             "EnergySage is the leading online marketplace for solar energy systems.",
@@ -88,7 +88,7 @@ export default {
           id: 5,
           name: "DataSoft NEXT",
           link: "http://demo.datasoft-bd.com/",
-          img: "../../src/assets/img/energysage.png",
+          img: "/img/energysage.png",
           alt: "DataSoft NEXT",
           outline:
             "DataSoft Systems Bangladesh Limited A next-gen software, logistics and automation company with more than two decades of experience in large-scale projects.",
@@ -97,7 +97,7 @@ export default {
           id: 6,
           name: "Conversica",
           link: "https://www.conversica.com/",
-          img: "../../src/assets/img/conversica.png",
+          img: "/img/conversica.png",
           alt: "Conversica",
           outline:
             "Conversica is the leading Conversational AI solution, helping attract, acquire and grow customers at scale with AI Assistants using Conversational AI.",
