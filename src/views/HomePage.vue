@@ -10,7 +10,7 @@
     <EducationComp />
     <SkillsComp />
     <PortfoliosComp />
-    <TestimonialsComp />
+    <!-- <TestimonialsComp /> -->
     <ContactComp />
   </main>
 </template>
@@ -21,7 +21,7 @@ import AboutmeComp from "../components/HomeView/AboutmeComp.vue";
 import EducationComp from "../components/HomeView/EducationComp.vue";
 import SkillsComp from "../components/HomeView/SkillsComp.vue";
 import PortfoliosComp from "../components/HomeView/PortfoliosComp.vue";
-import TestimonialsComp from "../components/HomeView/TestimonialsComp.vue";
+// import TestimonialsComp from "../components/HomeView/TestimonialsComp.vue";
 import ContactComp from "../components/HomeView/ContactComp.vue";
 export default {
   name: "HomePage",
@@ -31,7 +31,7 @@ export default {
     EducationComp,
     SkillsComp,
     PortfoliosComp,
-    TestimonialsComp,
+    // TestimonialsComp,
     ContactComp,
   },
   methods: {
