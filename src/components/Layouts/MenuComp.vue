@@ -128,9 +128,9 @@
               <a class="nav-link" href="#portfolio">Portfolios</a>
             </li>
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#testimonial">Testimonials</a>
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <a class="nav-link me-0" href="#contact">Contact</a>
