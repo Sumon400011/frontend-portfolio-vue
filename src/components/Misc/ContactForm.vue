@@ -88,12 +88,22 @@
     </div>
 
     <button type="submit" class="button button-primary">Send Message</button>
+
+    <ToastComp
+      toastmsg="Awesome"
+      toastsubmsg="Your Message has been submited succefully"
+      :isShow="isShow"
+    />
   </form>
 </template>
 <script>
 import emailjs from "@emailjs/browser";
+import ToastComp from "./ToastComp.vue";
 export default {
   name: "ContactForm",
+  components: {
+    ToastComp,
+  },
   data: function () {
     return {
       attemptSubmit: false,
@@ -109,6 +119,7 @@ export default {
         templateID: "template_8yadg98",
         pubKey: "Etz-WI4fbnNg3ImAK",
       },
+      isShow: null,
     };
   },
   methods: {
@@ -136,6 +147,7 @@ export default {
             console.log("SUCCESS!", result.text);
             this.makeFormEmpty();
             this.attemptSubmit = false;
+            this.toastAction();
           },
           (error) => {
             console.log("FAILED...", error.text);
@@ -153,6 +165,12 @@ export default {
       this.form.lastname = null;
       this.form.email = null;
       this.form.message = null;
+    },
+    toastAction: function () {
+      this.isShow = true;
+      setTimeout(() => {
+        this.isShow = false;
+      }, 4000);
     },
   },
   computed: {
