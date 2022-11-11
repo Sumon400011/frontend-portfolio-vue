@@ -57,7 +57,7 @@ export default {
           start: 2021,
           end: 2022,
           outline:
-            "The International University of Scholars, popularly known as University of Scholars, has started its journey in 2015 with five departments at the outset.",
+            "A full service digital outsourcing agency · Digital Solutions for marketing, IT, sales organizations and start-ups.",
         },
         {
           id: 2,
