@@ -1,6 +1,6 @@
 <template>
   <!-- Skills -->
-  <section id="skill" class="pt-72 pb-72 bg-secondary-100">
+  <section id="skill" class="pt-72 pb-72">
     <span class="bg-img"
       ><i class="fa-brands fa-react my-4" aria-hidden="true"></i
     ></span>

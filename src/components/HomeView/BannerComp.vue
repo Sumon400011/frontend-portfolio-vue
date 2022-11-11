@@ -69,11 +69,11 @@
         class="circle-outline-secondary-svg2"
       />
 
-      <img
+      <!-- <img
         src="../../assets/img/rect-outline-secondary.svg"
         alt="rect outline"
         class="rect-outline-secondary-svg spinner"
-      />
+      /> -->
 
       <img
         src="../../assets/img/rect-outline-secondary.svg"

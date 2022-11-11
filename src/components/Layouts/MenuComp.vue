@@ -178,8 +178,8 @@ export default {
 };
 </script>
 <style>
-#menu {
-  background-color: rgba(255, 255, 255, 1);
+div#menu {
+  background-color: transparent;
   box-shadow: none;
   transition: 0.3s;
 }

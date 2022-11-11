@@ -1,6 +1,6 @@
 <template>
   <!-- Education & Experience -->
-  <section id="education" class="pt-72 pb-72 bg-secondary-100">
+  <section id="education" class="pt-72 pb-72">
     <div class="container">
       <div class="row mb-40">
         <div class="col-12">

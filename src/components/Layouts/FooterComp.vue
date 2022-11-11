@@ -1,6 +1,6 @@
 <template>
   <!-- footer -->
-  <section id="footer" class="bg-primary-100 py-72 border-top-25">
+  <section id="footer" class="bg-primary-300 py-72 border-top-25">
     <div class="container">
       <div class="row">
         <div class="col-12">

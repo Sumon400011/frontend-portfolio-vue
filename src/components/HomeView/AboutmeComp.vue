@@ -1,6 +1,6 @@
 <template>
   <!-- About me -->
-  <section id="about" class="py-72 bg-secondary-100">
+  <section id="about" class="py-72">
     <div class="container">
       <div class="row mb-40">
         <div class="col-12">
